@@ -1,13 +1,24 @@
-body {
+* {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  background: #ebf2f3;
+  font-family: "Nunito", sans-serif;
+}
+.card {
+  margin: 15px;
+  border-radius: 10px;
+  max-width: 800px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.editButton {
+  cursor: pointer;
+  color: hsl(189, 80%, 52%);
+  margin-right: 5px;
+}
+
+.editButtonContainer {
+  display: flex;
+  justify-content: flex-end;
 }
